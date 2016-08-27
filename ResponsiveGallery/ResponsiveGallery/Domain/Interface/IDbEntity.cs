@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ResponsiveGallery.Domain.Interface
 {
-    interface IDbEntity
+    public interface IDbEntity
     {
         int Id { get; set; }
         bool Active { get; set; }
