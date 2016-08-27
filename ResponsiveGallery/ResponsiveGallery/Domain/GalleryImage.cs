@@ -21,5 +21,7 @@ namespace ResponsiveGallery.Domain
         [Required]
         public string ImageURL { get; set; }
 
+        public ICollection<Tag> Tags { get; set; }
+
     }
 }
