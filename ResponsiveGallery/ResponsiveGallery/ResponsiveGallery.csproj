@@ -206,6 +206,10 @@
     <Compile Include="Migrations\201608272142221_InitialMigration.Designer.cs">
       <DependentUpon>201608272142221_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608272145445_add name to tags.cs" />
+    <Compile Include="Migrations\201608272145445_add name to tags.Designer.cs">
+      <DependentUpon>201608272145445_add name to tags.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -216,6 +220,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\DSC00885.JPG" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -264,6 +269,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201608272142221_InitialMigration.resx">
       <DependentUpon>201608272142221_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608272145445_add name to tags.resx">
+      <DependentUpon>201608272145445_add name to tags.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
