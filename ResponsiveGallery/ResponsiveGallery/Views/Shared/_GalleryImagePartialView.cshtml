@@ -1,32 +1,6 @@
 ﻿@model ResponsiveGallery.Domain.GalleryImage
 
-<div>
-    <img src= @Model.ImageURL alt=@Html.DisplayFor(model => model.Title) style="padding:.5em" class="col-xs-12 col-sm-6 col-md-4 col-lg-3"/>
+<div style="padding:.5em" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <img src= @Model.ImageURL alt=@Html.DisplayFor(model => model.Title) style="max-width:100%" />
 
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Active)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Active)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.ImageURL)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ImageURL)
-        </dd>
-
-    </dl>
 </div>
