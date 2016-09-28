@@ -23,5 +23,14 @@ namespace ResponsiveGallery.Domain
 
         public ICollection<Tag> Tags { get; set; }
 
+        public GalleryImage() { }
+
+        public GalleryImage(bool active, string title, string imageurl, ICollection<Tag> tags)
+        {
+            Active = active;
+            Title = title;
+            ImageURL = imageurl;
+            Tags = tags;
+        }
     }
 }
