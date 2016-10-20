@@ -3,5 +3,24 @@
 
 .gallery-image-container{
     padding:.2em; 
-    margin-bottom:0.5em;
+}
+
+.gallery-image-inner-container{
+    border:1px solid gray; 
+    background-color:#EEE;
+    border-radius:3px; 
+    margin:.1em;
+}
+
+.gallery-image{
+    margin:auto; 
+    margin-top:1em; 
+    max-width:85%;
+    max-height:85%;
+    display:block;
+}
+
+.gallery-image-title{
+    text-align:center; 
+    margin:1em 0;
 }
