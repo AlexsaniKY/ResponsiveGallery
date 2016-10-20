@@ -12,6 +12,11 @@
     margin:.1em;
 }
 
+.gallery-image-inner-container:hover{
+    border-color:black;
+    background-color:white;
+}
+
 .gallery-image{
     margin:auto; 
     margin-top:1em; 
